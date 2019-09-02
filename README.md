@@ -5,12 +5,12 @@
  
  ### Here are some screenshots of the files
  
- ![Index Page](/screenshots/index.jpeg)
+ ![Index Page](/screenshots/index.png)
  
- ![Index Page](/screenshots/index-animation.png)
+ ![index animation](/screenshots/index-animation.png)
  
- ![Index Page](/screenshots/mid-game.png)
+ ![mid game](/screenshots/mid-game.png)
  
- ![Index Page](/screenshots/end-game.png)
+ ![end game](/screenshots/end-game.png)
  
  ### Any contribution/changes are highly appreciated!
