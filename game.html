@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>2048</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="jscript.js"></script>
+ <style>
+   body{background-image: url("try1.jpg");}
+
+   @keyframes animatetop
+{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+ </style>
+ </head>
+ <body>
+  <div style="animation: animatetop 2s">
+ 	<br><br>
+  <table id="table">
+   <tr>
+    <td class="cell"></td>
+    <td class="cell"></td>
+    <td class="cell"></td>
+    <td class="cell"></td>
+   </tr>
+   <tr>
+    <td class="cell"></td>
+    <td class="cell"></td>
+    <td class="cell"></td>
+    <td class="cell"></td>
+   </tr>
+   <tr>
+    <td class="cell"></td>
+    <td class="cell"></td>
+    <td class="cell"></td>
+    <td class="cell"></td>
+   </tr>
+   <tr>
+    <td class="cell"></td>
+    <td class="cell"></td>
+    <td class="cell"></td>
+    <td class="cell"></td>
+   </tr>
+  </table>
+  <br><br>
+  <div id="control">
+   <button onclick="play(1)">&#8679</button><br/>
+   <button onclick="play(2)">&#8678</button>
+   <button id="blank">&#8746</button>
+   <button onclick="play(3)">&#8680</button><br/>
+   <button onclick="play(4)">&#8681</button>
+  </div>
+</div>
+ </body>
+</html>

@@ -1,0 +1,59 @@
+.cell
+{
+    font-size:150%;
+    border-radius:5px;
+    color:white;
+    height:60px;
+    width:60px;
+    text-align:center;
+    animation-duration:0.25s;
+}
+@keyframes fadein
+{
+    0%{opacity:0.0;}
+    10%{opacity:0.1;}
+    20%{opacity:0.2;}
+    30%{opacity:0.3;}
+    40%{opacity:0.4;}
+    50%{opacity:0.5;}
+    60%{opacity:0.6;}
+    70%{opacity:0.7;}
+    80%{opacity:0.8;}
+    90%{opacity:0.9;}
+    100%{opacity:1.0;}
+}    
+button
+{
+    font-size:200%;
+    border: 1px solid black;
+    border-radius: 12px;
+    width:60px;
+    height:60px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid green;
+}
+
+#control
+{
+    text-align:center;
+}
+table
+{
+    background:rgb(255,255,0);
+    border-radius:10px;
+    border:solid red;
+    margin:auto;
+}
+#blank
+{
+    visibility:hidden;
+    width:60px;
+    height:60px;
+}
