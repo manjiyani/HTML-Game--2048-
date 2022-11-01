@@ -60,6 +60,7 @@ button:hover
 table
 {
     background:rgb(255,255,0);
+    display: grid;
     border-radius:10px;
     border:solid red;
     margin:auto;
