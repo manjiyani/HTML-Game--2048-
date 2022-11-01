@@ -21,8 +21,21 @@
     80%{opacity:0.8;}
     90%{opacity:0.9;}
     100%{opacity:1.0;}
-}    
+}   
+ 
 button
+{
+    font-size:200%;
+    border: 1px solid black;
+    border-radius: 12px;
+    width:60px;
+    height:60px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+button-new
 {
     font-size:200%;
     border: 1px solid black;
